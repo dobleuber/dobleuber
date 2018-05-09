@@ -48,9 +48,26 @@ module.exports = {
         path: `${__dirname}/src/img/`
       }
     },
+    {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: `${__dirname}/src/icons/js.png`,
+        injectHTML: true,
+        icons: {
+          android: true,
+          appleIcon: true,
+          appleStartup: true,
+          coast: false,
+          favicons: true,
+          firefox: true,
+          twitter: false,
+          yandex: false,
+          windows: false
+        }
+      }
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp'
-  ],
-  pathPrefix: '/dobleuber'
+  ]
 }
