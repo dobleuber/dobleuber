@@ -27,12 +27,24 @@ module.exports = {
         score: 5
       },
       {
+        label: 'Mobile Hybrid Apps',
+        score: 4
+      },
+      {
         label: 'NodeJs',
         score: 4
       },
       {
         label: 'React',
         score: 5
+      },
+      {
+        label: 'React Native',
+        score: 3
+      },
+      {
+        label: 'Swift',
+        score: 3
       },
       {
         label: 'Webpack, grunt, gulp',
@@ -68,6 +80,7 @@ module.exports = {
     },
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp'
-  ]
+    'gatsby-plugin-sharp',
+  ],
+  pathPrefix: '/dobleuber.github.io'
 }
