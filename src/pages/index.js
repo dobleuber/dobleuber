@@ -60,7 +60,7 @@ const IndexPage = ({ data }) => (
           city.
         </p>
         <p>
-          My main job is to learn about new things and I am always trying new ways to do things.
+          I like to learn about new things and I am always trying new ways to do things.
         </p>
         <h4>Experience</h4>
         <h5>PSL Corp</h5>
